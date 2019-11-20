@@ -2241,6 +2241,20 @@ body {
       width: 560px;
       top: -199px; }
 
+.valign-wrapper-item {
+  height: 500px;
+  background: #fff; }
+  .valign-wrapper-item .shout {
+    font-size: 100px;
+    text-align: center;
+    width: 100%;
+    font-weight: bolder;
+    position: relative; }
+    .valign-wrapper-item .shout .art {
+      position: absolute;
+      right: 0;
+      margin: 0 auto; }
+
 .title-2 {
   text-align: center;
   font-family: "Vibes", cursive;

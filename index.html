@@ -45,6 +45,17 @@
 ></script>
 
 
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.css"
+    />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
     <script src="js/home.js"></script>
   </head>
   <body class="home">
@@ -78,11 +89,68 @@
           <h5 class="center title-2">DEAL OF THE DAY</h5>
           <p class="center title-3">Lorem ipsum is a free dummy text</p>
         </div>
+        <div class="col s12">
+          <div class="owl-carousel owl-theme">
+            <div class="item">
+              <div class="valign-wrapper valign-wrapper-item">
+                <h1 class="shout" style="color:#f67d77;">
+                  25% DISCOUNT
+                  <img
+                    style="
+                      left:-330px;
+                      width: 560px;
+                      top: -199px;
+                    "
+                    class="art"
+                    src="http://pngimg.com/uploads/umbrella/umbrella_PNG69157.png"
+                    alt=""
+                  />
+                </h1>
+              </div>
+            </div>
+            <div class="item">
+              <div class="valign-wrapper valign-wrapper-item">
+                <h1 class="shout" style="color:#f7c916;">
+                  BUY 1 GET 1
+                  <img
+                    style="
+                      left: 0px;
+                      width: 560px;
+                      top: -199px;
+                    "
+                    class="art"
+                    src="http://pngimg.com/uploads/umbrella/umbrella_PNG69157.png"
+                    alt=""
+                  />
+                </h1>
+              </div>
+            </div>
+            <div class="item">
+              <div class="valign-wrapper valign-wrapper-item">
+                <h1 class="shout" style="color:#e91e63;">
+                  FREE SHIPPING
+                  <img
+                    style="
+                      left: -210px;
+                      width: 560px;
+                      top: -199px;
+                    "
+                    class="art"
+                    src="http://pngimg.com/uploads/umbrella/umbrella_PNG69157.png"
+                    alt=""
+                  />
+                </h1>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
 
-    <footer class="page-footer">
-  <div class="container"></div>
+    {{include_html "common/footer.html"}}
+  </body>
+</html>
+>
   <p class="reg-details grey-text"><span>Happy style trading @2019</span></p>
 </footer>
 
