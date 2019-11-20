@@ -9,39 +9,35 @@ body {
   background: #039be5; }
 
 .navigation {
-  padding: 10px; }
+  padding: 10px;
+  background: #f7c916; }
   @media (min-width: 601px) {
     .navigation {
-      padding: 30px 5%; } }
+      padding: 30px; } }
   .navigation ul.items {
+    position: relative;
     margin: 0; }
     .navigation ul.items li {
       display: inline-block;
       padding: 10px; }
       .navigation ul.items li a {
-        color: #323232;
+        color: #fff;
         transition: all 500ms; }
         .navigation ul.items li a:after {
           position: relative;
           width: 10px;
           height: 1px;
-          background: #039be5;
+          background: #fff;
           display: block;
           content: ""; }
-        .navigation ul.items li a:hover {
-          color: #039be5; }
-          .navigation ul.items li a:hover:after {
-            width: 100%; }
+        .navigation ul.items li a:hover:after {
+          width: 100%; }
     .navigation ul.items li.brand {
       padding: 0px;
       float: right; }
-      .navigation ul.items li.brand a:after {
-        display: none; }
-      .navigation ul.items li.brand a img.logo {
-        width: 32px; }
-        @media (min-width: 601px) {
-          .navigation ul.items li.brand a img.logo {
-            width: 52px; } }
+      .navigation ul.items li.brand i {
+        color: #fff;
+        font-size: 40px; }
 
 .page-footer {
   background-color: #f8f9fa;
@@ -65,19 +61,17 @@ body {
       .page-footer .container .row .col a.quick-links {
         padding: 10px;
         display: inline-block;
-        color: #323232;
+        color: #fff;
         transition: all 500ms; }
         .page-footer .container .row .col a.quick-links:after {
           position: relative;
           width: 20px;
           height: 1px;
-          background: #039be5;
+          background: #fff;
           display: block;
           content: ""; }
-        .page-footer .container .row .col a.quick-links:hover {
-          color: #039be5; }
-          .page-footer .container .row .col a.quick-links:hover:after {
-            width: 100%; }
+        .page-footer .container .row .col a.quick-links:hover:after {
+          width: 100%; }
         .page-footer .container .row .col a.quick-links i {
           vertical-align: middle;
           font-size: 16px;
@@ -2219,27 +2213,14 @@ body {
     -webkit-animation-iteration-count: 1 !important;
     animation-iteration-count: 1 !important; } }
 
-.main-page-content {
-  width: 100%;
-  max-width: 100%; }
-
-.navigation ul.items li.brand {
-  display: none; }
-
-.container-1 {
-  width: 100%; }
-
 .title {
   padding: 30px 20px;
   text-align: center;
   font-family: "Vibes", cursive;
-  text-shadow: 1px 3px 4px #000;
-  color: #000;
+  text-shadow: 0px 4px 4px #6b6b6b;
+  color: #fff;
   margin: 0;
-  background: #d9a43b;
+  background: #f7c916;
   font-size: 80px; }
-
-.valign-wrapper {
-  height: 250px; }
 
 /*# sourceMappingURL=home.css.map */
