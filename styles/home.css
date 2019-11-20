@@ -21,7 +21,7 @@ body {
       display: inline-block;
       padding: 10px; }
       .navigation ul.items li a {
-        color: #fff;
+        color: #000;
         transition: all 500ms; }
         .navigation ul.items li a:after {
           position: relative;
@@ -61,7 +61,7 @@ body {
       .page-footer .container .row .col a.quick-links {
         padding: 10px;
         display: inline-block;
-        color: #fff;
+        color: #000;
         transition: all 500ms; }
         .page-footer .container .row .col a.quick-links:after {
           position: relative;
