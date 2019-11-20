@@ -2223,4 +2223,22 @@ body {
   background: #f7c916;
   font-size: 80px; }
 
+.valign-wrapper-main {
+  height: 600px;
+  background: #f67d77; }
+  .valign-wrapper-main .shout {
+    font-size: 100px;
+    text-align: center;
+    width: 100%;
+    font-weight: bolder;
+    color: #fff;
+    position: relative; }
+    .valign-wrapper-main .shout .art {
+      position: absolute;
+      left: 0;
+      right: 0;
+      margin: 0 auto;
+      width: 560px;
+      top: -199px; }
+
 /*# sourceMappingURL=home.css.map */
