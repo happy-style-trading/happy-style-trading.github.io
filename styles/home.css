@@ -6,11 +6,11 @@ body {
   bottom: 100px;
   right: 10px;
   z-index: 2;
-  background: #039be5; }
+  background: #2196f3; }
 
 .navigation {
   padding: 10px;
-  background: #f7c916; }
+  background: #2196f3; }
   @media (min-width: 601px) {
     .navigation {
       padding: 30px; } }
@@ -40,18 +40,8 @@ body {
         font-size: 40px; }
 
 .page-footer {
-  background-color: #f8f9fa;
-  padding: 20px;
+  background-color: #fd9826;
   position: relative; }
-  .page-footer .logo {
-    width: 60px;
-    position: absolute;
-    left: 0;
-    right: 0;
-    margin-left: auto;
-    margin-right: auto;
-    top: -30px;
-    border-radius: 50%; }
   .page-footer .container {
     border-top: 1px solid #cccccc;
     margin-top: 50px; }
@@ -2220,12 +2210,12 @@ body {
   text-shadow: 0px 4px 4px #6b6b6b;
   color: #fff;
   margin: 0;
-  background: #f7c916;
+  background: #2196f3;
   font-size: 80px; }
 
 .valign-wrapper-main {
   height: 600px;
-  background: #f67d77; }
+  background: #fd9826; }
   .valign-wrapper-main .shout {
     font-size: 100px;
     text-align: center;
@@ -2291,5 +2281,10 @@ body {
         font-size: 30px;
         position: relative;
         top: -4px; }
+
+.wooden-wall-2,
+.wooden-wall {
+  padding: 30px 0px;
+  background: url("https://i.pinimg.com/originals/45/c6/67/45c66773e1f00eecf4dbe3f745e28e6c.jpg"); }
 
 /*# sourceMappingURL=home.css.map */
